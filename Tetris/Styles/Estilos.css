@@ -1,0 +1,220 @@
+
+body{
+    background: url('/Styles/2.jpg');
+     background-size: cover;
+            -webkit-background-size: cover;
+            -o-background-size: cover;
+}
+
+
+div.contenedor
+{
+    width: 420px;
+    height: 460px;
+    /* margin-left: auto; */
+    /* border: 3px solid #3719e2;   */
+}
+.card {
+    background-color: rgb(255, 255, 255, 0.5) !important;
+}
+
+div.contenedorcanvas
+{
+    width: 200px;
+    height: 420px;
+    margin-top: 5px;
+     /* border: 3px solid #e22319;   */
+    float: left;
+    background: url('Images/1.png');
+}
+
+div.contenedorderecha
+{
+    width: 200px;
+    height: 300px;
+    float: left;
+    font-size: 16px;      
+        margin-top: 5px;
+    font-family: "Terminal";
+    font-weight: bold;
+    /* border: 3px solid #e80b0b;     */
+}
+
+div.contenedorderecha .figura
+{    
+    width: 160px;
+    height: 60px;
+    border: 3px solid #667799;
+    margin-left: 12px;
+    background-color: #DDEEFF;
+}
+
+div.contenedorderecha .figura .canvas
+{
+    margin-top: 10px;
+     /* border: 3px solid #e22319;   */
+}
+
+div.contenedorderecha .score
+{
+    width: 180px;
+    height: 40px;
+    margin-left: 12px;
+    margin-top: 8px;
+    background-color: #DDEEFF;
+    border: 3px solid #667799;
+    /* border: 3px solid #196de2; */
+}
+
+div.contenedorderecha .score .izq
+{
+    float: left;
+    width: 75px;
+    height: 40px;    
+    margin-left: 5px;
+    line-height: 37px;
+    /* border: 3px solid #e22319; */
+}
+
+div.contenedorderecha .score .der
+{
+    float: left;
+    width: 75px;
+    height: 40px;
+    text-align: right;
+    margin-right: 5px;
+    line-height: 37px;
+    /* border: 3px solid #e22319; */
+}
+
+div.contenedorderecha .lines
+{
+    width: 180px;
+    height: 40px;
+    margin-left: 12px;
+    border-left: 3px solid #667799;
+    border-right: 3px solid #667799;
+    border-bottom: 3px solid #667799;
+    background-color: #DDEEFF;
+    /* border: 3px solid #e22319; */
+}
+
+div.contenedorderecha .lines .izq
+{
+    float: left;
+    width: 75px;
+    height: 40px;
+    font-weight: bold;
+    margin-left: 5px;
+    line-height: 37px;
+    /* border: 3px solid #e22319; */
+}
+
+div.contenedorderecha .lines .der
+{
+    float: left;
+    width: 75px;
+    height: 40px; 
+    text-align: right;
+    margin-right: 5px;
+    line-height: 37px;
+    /* border: 3px solid #e22319; */
+}
+
+div.contenedorderecha .level
+{
+    width: 180px;
+    height: 40px;
+    margin-left: 12px;
+    border-left: 3px solid #667799;
+    border-right: 3px solid #667799;
+    border-bottom: 3px solid #667799;
+    background-color: #DDEEFF;
+    /* border: 3px solid #e22319; */
+}
+
+div.contenedorderecha .level .izq
+{
+    float: left;
+    width: 75px;
+    height: 40px; 
+    font-weight: bold;
+    margin-left: 5px;
+    line-height: 37px;
+    /* border: 3px solid #e22319; */
+}
+
+div.contenedorderecha .level .der
+{
+    float: left;
+    width: 75px;
+    height: 40px;
+    text-align: right;
+    margin-right: 5px;
+    line-height: 37px;
+    /* border: 3px solid #e22319; */
+}
+
+div.contenedorderecha .sonido
+{
+    width: 180px;
+    height: 40px;
+    background-color: #DDEEFF;
+    border: 3px solid #667799;
+    margin-left: 12px;
+    margin-top: 8px;
+    /* border: 3px solid #e22319; */
+}
+
+div.contenedorderecha .sonido .izq
+{
+    float: left;
+    width: 35px;
+    height: 35px;    
+    margin-left: 5px;    
+    cursor: pointer;    
+    /* border: 3px solid #e22319; */
+}
+
+div.contenedorderecha .sonido .izq
+{
+    width: 35px;
+    height: 35px;
+    /* border: 3px solid #e22319; */
+}
+
+div.contenedorderecha .sonido .der
+{
+    float: left;
+    width: 75px;
+    height: 40px;    
+    margin-right: 5px;
+    /* border: 3px solid #e22319; */
+    
+}
+
+div.contenedorderecha .jugar
+{
+     /* border: 3px solid #e22319;   */
+    width: 180px;
+    height: 40px;
+    background-color: #DDEEFF;
+    border: 3px solid #667799;
+    margin-left: 12px;
+    margin-top: 8px;
+    text-align: center;
+    line-height: 37px;    
+    /* border: 3px solid #e22319; */
+}
+
+div.contenedorderecha .jugar
+{
+    cursor: pointer;
+    /* border: 3px solid #e22319; */
+}
+/* .comtainer{ */
+    /* font-size: 20px; */
+    /* color: royalblue; */
+    /* border: 3px solid #e22319; */
+
+/* } */
